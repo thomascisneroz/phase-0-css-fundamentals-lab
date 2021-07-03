@@ -3,3 +3,31 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  color: black;
+  text-align: center;
+}
+figure {
+  text-align: center;
+}
+/* All <a> elements in nav*/
+nav ~ a {
+padding: 10px;
+}
+/* all <p> id = featured-property*/
+ p{ 
+text-align: center;
+width: 800px;
+}
+figcaption{
+  font-size: 16px;
+}
+div{
+  float: left;
+}
+/* id = details*/
+div{
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
